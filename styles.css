@@ -1,0 +1,365 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e4;
+    color: #5a3e36;
+}
+
+
+/* Header Section */
+header {
+    /*background: url('Homee.jpg') /*no-repeat center center/cover*/
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+     color: rgb(20, 19, 19); 
+   /* padding: 100px 20px;*/
+}
+
+/* Logo Styling */
+.logo {
+    width: 120px;
+}
+
+/* header {
+    background-color: #3e2723;
+    color: white;
+    padding: 15px;
+    text-align: center;
+} */
+
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(22, 21, 21);
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+     color: white; 
+    padding: 300px 50px;
+    background: url('Homee.jpg')
+    /*background: rgba(0, 0, 0, 0.5); /* Slight dark overlay */
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+}
+.menu-text h1{
+    font-size: 3rem;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+}
+.coffee-text h3{
+    font-size: 2rem;
+}
+.Breakfast-text h3{
+    font-size: 2rem;
+}
+
+#menu table, #coffee-menu table, #breakfast-menu table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#menu th, #menu td, #coffee-menu th, #coffee-menu td, #breakfast-menu th, #breakfast-menu td {
+    border: 1px solid #572f2f;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #5a3e36;
+}
+
+.btn {
+    background-color: #c87f5e;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: #a8644c;
+}
+/* Menu Section */
+#menu {
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #f8f1e4;
+}
+
+/* Menu Grid */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Individual Menu Item */
+.menu-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.menu-item h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #5a3e36;
+}
+
+.price {
+    font-weight: bold;
+    color: #c87f5e;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+/* About Us Section */
+#about {
+    background-color: #fff8f0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* About Us Layout */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: auto;
+    gap: 30px;
+}
+
+/* About Us Image */
+.about-content img {
+    width: 50%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+/* About Us Text */
+.about-text {
+    width: 40%;
+    text-align: left;
+    
+}
+
+/* Headings */
+.about-text h3 {
+    color: #c87f5e;
+    margin-top: 15px;
+}
+.About-head h2{
+    font-size: 3rem;
+}
+/* Contact Section */
+#contact {
+    background-color: #f8f1e4;
+    padding: 50px 20px;
+    text-align: center;
+}
+.contact-head h2{
+    font-size: 3rem;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input & Textarea Fields */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #5a3e36;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+button {
+    background-color: #c87f5e;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #a8644c;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* Email Link Styling */
+footer a {
+    color: #ffcc80;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.scrolling-text h1{
+    font-size: 2.5rem;
+    color: #5a3e36;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* General Responsive Styles */
+@media (max-width: 768px) {
+    /* Header: Stack logo and menu */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Navigation: Hide menu by default */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #3e2723;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .nav-links a {
+        display: block;
+        width: 100%;
+    }
+
+    /* Show menu when active */
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* Hamburger Menu */
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        padding: 10px;
+        color: white;
+    }
+
+    /* Menu Grid: Stack items */
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* About Section: Stack Image & Text */
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        width: 80%;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    /* Contact Form: Adjust Width */
+    form {
+        width: 90%;
+    }
+}
+
+.elementor-icon svg {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .elementor-icon svg:hover {
+    transform: scale(1.1); /* Enlarge the icon on hover */
+  }
+ 
+  
+  
+
+
+
+
+
+
+
+
